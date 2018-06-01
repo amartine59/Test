@@ -1,0 +1,85 @@
+body{
+    font-family:Arial, Helvetica, sans-serif; 
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.main_container{
+    width: 940px;
+    height: inherit;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.top_menu{
+   height: 60px;
+   width: inherit;
+   background-color:#CCCCCC;
+   color: #FFFFFF;
+   
+   
+}
+.menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+.menu li{
+    display: inline;
+    padding-right: 20px;
+    
+}
+.menu_button{
+    background-color:#8E8E8E;
+    border-radius: 5px;
+    height:30px;
+    width: 150px;
+    color: white;
+    font-style: bold;
+    font-size:auto;
+}
+
+
+.space_div{
+    height: 240px;
+    width: inherit;
+    background-color:#F2F2F2
+}
+
+.about_us{
+    height: 370px;
+    width: inherit;
+    background-color: #E5E5E5;
+    display:flex;
+    flex-wrap: nowrap;
+}
+
+.article_title{
+   color:#8E8E8E;
+
+}
+.left_article{
+    color:#656565;
+    font-style: bold;
+}
+
+
+.latest_news{
+    height: 370px;
+    width: inherit;
+    background-color: #F2F2F2;
+}
+
+.contact_us{
+    height: 320px;
+    width: inherit;
+    background-color: #B2B2B2;
+}
+
+.footer{
+    height: 90px;
+    width: inherit;
+    background-color: #858585;
+}
